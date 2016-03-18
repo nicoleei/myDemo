@@ -1,0 +1,1 @@
+* 请访问 dext 目录下的 index.html和table.html文件

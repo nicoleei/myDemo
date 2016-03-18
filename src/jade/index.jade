@@ -1,0 +1,178 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title chart
+    link(type="text/css",rel="stylesheet",href="css/reset.css")
+    link(type="text/css" ,rel="stylesheet", href="css/index.css")
+    script(src="js/libs/jquery-1.11.3.js")
+    script(src="js/libs/echarts.min.js")
+  body
+    .outer_wrap
+      .header
+        a(href="#")
+          img(src="img/logo.png" ,alt="infinite")
+        .headcap
+          div 
+            span Good morning
+            span.name nico
+            span
+              img.self(src="img/peo.png",alt="photo") 
+            i 
+          ul
+            li 
+              a(href="#") 
+                span.title Notifications
+                span.num.not 3
+            li 
+              a(href="#") 
+                span.title Messages
+                span.num.mes 12
+            li 
+              a(href="#") 
+                span.title Tasks
+                span.num.tas 7        
+      .bodyPart
+        ul
+          li.on
+            a(href="#") 
+              i.dash
+              span dashboard
+          li
+            a(href="#") 
+              i.post
+              span Posts   
+          li
+            a(href="#") 
+              i.users
+              span Users 
+          li
+            a(href="#") 
+              i.media
+              span Media
+          li
+            a(href="#") 
+              i.Pages
+              span Pages  
+          li
+            a(href="#") 
+              i.comments
+              span Comments   
+              span.num 7
+          li.forum
+            a(href="#") 
+              i.Forum
+              span Forum   
+          li
+            a(href="#") 
+              i.topics
+              span Topics   
+          li
+            a(href="#") 
+              i.replies
+              span Replies   
+              span.num 11
+          li.appear
+            a(href="#") 
+              i.appear
+              span Appearance   
+          li
+            a(href="#") 
+              i.plugins
+              span Plugins   
+          li
+            a(href="#") 
+              i.Tools
+              span Tools   
+          li.settings
+            a(href="#") 
+              i.Settings
+              span Settings                                
+        .main
+          ul.visitor_ban
+            li
+              a(href="#")
+                img(src="img/peo.png")
+                h6 today's visitors
+                span 3,352 
+            li
+              a(href="#")
+                img(src="img/line.png")
+                h6 Month revenue
+                span $1,152,00 
+            li
+              a(href="#")
+                img(src="img/mail.png")
+                h6 Mail
+                span 13 
+                span.mail new messages
+            li
+              a(href="#")
+                img(src="img/peo.png")
+                h6 today's visitors
+                span 3,352             
+          .form_field
+            .title
+              span Traffic
+              .sign_box
+                i.x
+                i.triangle
+            .form#form
+          .form_field  
+            .title
+              span Today's Visits
+              .sign_box
+                i.x
+                i.triangle
+            .fourCharts
+              .top_part
+                .pieCt#pieCt
+                .sliderCt#sliderCt
+              .down_part#down_part
+          .form_field
+            .title
+              span Recent Order List
+              .sign_box
+                i.x
+                i.triangle    
+            table#myTable
+              tr
+                th Form
+                th Contact
+                th Amount
+                th All Orders
+              tr
+                td 
+                  | Lion 1
+                td Robin Van Persie 1
+                td $245.00
+                td 
+                  i.up up
+                  i.down down
+              tr
+                td 
+                  | Lorem Inc. 2
+                td Chicharrito 2
+                td $1235.00
+                td 
+                  i.up up
+                  i.down down     
+              tr
+                td 
+                  | Lorem Inc. 3
+                td Chicharrito 3
+                td $2235.00
+                td 
+                  i.up up
+                  i.down down
+              tr
+                td 
+                  | Lorem Inc. 4
+                td Chicharrito 4
+                td $3235.00
+                td 
+                  i.up up
+                  i.down down    
+             
+    script(src="js/index.js")        
+
